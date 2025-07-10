@@ -7,7 +7,7 @@ const Languaje = sequelize.define("Languaje", {
     allowNull: false,
     unique: true,
   },
-  paradig: {
+  paradigm: {
     type: DataTypes.STRING,
     allowNull: false,
   },
