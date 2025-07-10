@@ -1,7 +1,7 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../config/database.js";
 
-const Languaje = sequelize.define("Languaje", {
+const Language = sequelize.define("Language", {
   name: {
     type: DataTypes.STRING,
     allowNull: false,
@@ -17,4 +17,4 @@ const Languaje = sequelize.define("Languaje", {
   }
 });
 
-export default Languaje;
+export default Language;
