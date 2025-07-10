@@ -2,7 +2,7 @@
 import { Router } from "express";
 import {
   getAllLanguages,
-  getLanguagesById,
+  getLanguageById,
   createLanguage,
   updateLanguage,
   deleteLanguage,
@@ -11,7 +11,7 @@ import {
 const router = Router();
 // definición de las rutas
 router.get("/", getAllLanguages);
-router.get("/:id", getLanguagesById);
+router.get("/:id", getLanguageById);
 router.post("/", createLanguage);
 router.put("/:id", updateLanguage);
 router.delete("/:id", deleteLanguage);
